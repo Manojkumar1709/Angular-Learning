@@ -1,0 +1,43 @@
+<h1>login works!</h1>
+<button (click)='getFullName("Manoj", "Kumar")'>Click Me</button>
+<p>{{firstName}}</p>
+<p>{{secondName}}</p>
+
+<h3>If in Angular</h3>
+<h4 *ngIf="show==='yes';  then ifBlock else elseBlock">If Statement</h4>
+<ng-template #ifBlock>
+    <h4>If Block</h4>
+</ng-template>
+<ng-template #elseBlock>
+    <h4>Else Condition</h4>
+</ng-template>
+
+<!-- <h3>Make Counter</h3>
+<button (click)="counter('minus')">--</button>
+<p>Count : {{count}}</p>
+<button (click)="counter('add')">++</button> -->
+
+<!-- <h2>Text Components</h2>
+<input type="text" placeholder="name" #box/>
+<br />
+<br />
+<button (click)="getValue(box.value)">Click</button>
+<p>The value : {{displayValue}}</p> -->
+
+<!-- <h2>Important Events in angular</h2>
+<input type="text" #box (keyup)="getFunction(box.value)" placeholder="Key Up" />
+<br />
+<br />
+<input type="text" #box1 (keydown)="getFunction(box1.value)" placeholder="Key Down" />
+<br />
+<br />
+<input type="text" #box2 (blur)="getFunction(box2.value)" placeholder="Key Down" />
+<br />
+<br />
+<button (click)="getFunction('Manoj')">Call function</button>
+<br />
+<br />
+<h1 (mouseover)="getData('over')">Welcome to Angular app</h1>
+<br />
+<br />
+<h1 (mouseleave)="getData('over')">Welcome to Angular app</h1> -->
